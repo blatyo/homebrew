@@ -4,7 +4,7 @@ require 'hardware'
 class Postgresql <Formula
   homepage 'http://www.postgresql.org/'
   url 'http://wwwmaster.postgresql.org/download/mirrors-ftp/source/v8.4.6/postgresql-8.4.6.tar.bz2'
-  md5 'fcc3daaf2292fa6bf1185ec45e512db6'
+  md5 '3037a592ed36be750b1e374b5c04ddd0'
 
   depends_on 'readline'
   depends_on 'libxml2' if MACOS_VERSION < 10.6 # Leopard libxml is too old
